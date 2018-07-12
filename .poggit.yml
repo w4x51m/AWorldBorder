@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/CookieCode/AWorldBorder
+branches:
+- master
+projects:
+  AWorldBorder:
+    path: "meta/AWorldBorder.png"
+...
