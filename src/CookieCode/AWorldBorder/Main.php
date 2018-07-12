@@ -6,7 +6,6 @@ use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerMoveEvent;
-use pocketmine\math\Vector3;
 use pocketmine\plugin\PluginBase as PL;
 
 class Main extends PL implements Listener {
