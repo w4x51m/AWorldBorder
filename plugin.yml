@@ -1,0 +1,5 @@
+name: AWorldBorder
+author: CookieCode
+version: 1.1
+main: CookieCode\AWorldBorder\Main
+api: [3.0.0, 3.0.6, 4.0.0]

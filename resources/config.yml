@@ -1,0 +1,11 @@
+#################
+#AWorldBorder
+#v1.1
+#By CookieCode
+#Contact me on Twitter if you have any problem (@MilkAndCookiz)
+#################
+
+#border_radius : You can change the border radius values!
+border_radius: 2700
+#border_message : You can change the message when you meet the border.
+border_message: "§c» §aYou can't travel beyond the World border !"
