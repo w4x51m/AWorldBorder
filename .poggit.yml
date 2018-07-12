@@ -3,5 +3,6 @@ branches:
 - master
 projects:
   AWorldBorder:
-    path: "meta/AWorldBorder.png"
+    path: ""
+    icon: "meta/AWorldBorder.png"
 ...
