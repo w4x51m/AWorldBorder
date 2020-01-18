@@ -12,7 +12,7 @@ class Main extends PL implements Listener {
 
 	public function onEnable() {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info("Enabled !");
+		$this->getLogger()->info("World Border Active!");
 		$this->saveDefaultConfig();
 	}
 
@@ -21,9 +21,9 @@ class Main extends PL implements Listener {
 		$level = $this->getServer()->getDefaultLevel();
 		$distance = $level->getSpawnLocation()->distance($player);
 
-		if($distance >= $this->getConfig()->get("border_radius")) {
+		if($distance >= 20) { //config usage $this->getConfig()->get("border_radius")
 			$ev->setCancelled(true);
-			$player->sendMessage($this->getConfig()->get("border_message"));
+			$player->sendMessage("You Cannot Pass The Border!");
 		}
 	}
 }
